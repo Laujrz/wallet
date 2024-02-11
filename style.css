@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0); /* Fondo semi-transparente */
+    backdrop-filter: blur(2px); /* Desenfoque */
+    z-index: 1000; /* Asegura que esté encima del contenido */
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+
+
+.header-menu {
+    display: flex;
+}
+.header-menu{
+    margin-left: 200px;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #000000; /* Color del texto */
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(165, 252, 25, 0.596); /* Fondo semi-transparente */
+    box-shadow: 13px 7px 7px rgba(231, 210, 14, 0.911);
+}
+
+.registro {
+    margin-left: 900px;
+}
+.registro a {
+    text-decoration: none;
+    color: #fff; /* Color del texto */
+    background-color: #007bff; /* Color del fondo */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner {
+    background-image: url(./img/colage-operaciones-ingresos.jpg); /* Agrega 'url' */
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    background-color: #000020;
+    opacity: 0.9;
+}
+.banner-content {
+    text-align: center;
+    padding: 15%;
+    
+}
+.banner h1 {
+    margin: 0%;
+    color: white;
+    text-shadow: 13px 7px 7px black;
+    font-size: 62px;
+    font-weight: bold;
+    backdrop-filter: blur;
+  }
+.banner p {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 4px 3px rgb(0, 0, 0);
+    backdrop-filter: blur;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white ;
+}
+
+.contents {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    
+}
+
+.icon {
+    font-size: 200px;
+}
+
+.text {
+    max-width: 40%; /* Ancho máximo del texto */
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
+    font-size: 24px;
+}
+
+.text h2 {
+    margin-top: 0;
+}
+hr {
+    width: 40%; /* Ancho del 40% */
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.img-p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.img-p img {
+    width: 80%;
+    justify-content: center;
+}
+.img-p p {
+    font-size: 25px;
+    color: white;
+    text-shadow: 3px 4px 3px rgb(0, 0, 0);
+    text-align: end;
+    width: 70%;
+    margin-left: 40px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; 
+    margin-right: 400px;
+    color: #fff;
+    width: 80%;
+}
+.custom-form {
+    background-color: #010107b0;
+    padding: 40px 102px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 251, 23, 0.651);
+}
+
+.custom-form label {
+    font-weight: bold;
+}
+
+.custom-form input[type="text"],
+.custom-form input[type="email"],
+.custom-form input[type="password"],
+.custom-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.custom-form input[type="submit"] {
+    background-color: #008bcf;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-form input[type="submit"]:hover {
+    background-color: #0078b0;
+}
+.app {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    text-align: center;
+}
+.app h1 {
+    font-size: 600%;
+    text-align: left;
+    width: 40%;
+    margin-bottom: 0%;
+
+}
+.app p {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 4px 3px rgb(119, 119, 119);
+    backdrop-filter: blur;
+
+}
+.btn {
+    width: 40%;
+}
+
+.cotizaciones-body {
+    background-image: url(./img/cerrar-mano-sosteniendo-moneda.jpg);
+    background-size: cover;
+    background-position: center;
+    height:70vh;
+}
+
+
+.content-banner {
+    text-align: center;
+    padding: 15%;
+}
+
+.content-banner h1 {
+    margin: 0%;
+    color: white;
+    text-shadow: 13px 7px 7px black;
+    font-size: 62px;
+    font-weight: bold;
+    backdrop-filter: blur;
+}
+.cotizaciones-body-gral{
+    background-color: #10022c;
+
+}
+.table-body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.table-body h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.tabla-css {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 600px;
+    box-shadow: 0 0 25px #fbff2a;
+    border-collapse: collapse;
+    background-color: #ccc;
+}
+.tabla-css thead tr {
+    background-color: chartreuse;
+    color: #000000;
+    text-align: center;
+    font-size: 17px;
+
+}
+.tabla-css th,
+.tabla-css td {
+    padding: 20px 20px;
+    text-align: center;
+}
+.tabla-css tbody tr:nth-of-type(even){
+    background-color: rgb(252, 252, 252);
+    color: #000000;
+    font-size: 17px;
+
+}
